@@ -14,7 +14,7 @@ var getJulianDate = function getJulianDate(jd) {
 };
 
 var julianDays = function julianDays(jdays) {
-  return jdays ? getJulianDate(jdays + julian2000) : getJulianDate() - julian2000;
+  return jdays
 };
 
 module.exports = {
