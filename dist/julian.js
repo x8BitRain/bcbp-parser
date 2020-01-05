@@ -10,7 +10,7 @@ var getJulianDate = function getJulianDate(jd) {
   var dayInMs = julian.dayInMs,
       julian1970 = julian.julian1970;
 
-  return jd ? new Date((jd + 0.5 - julian1970) * dayInMs) : new Date().valueOf() / dayInMs - 0.5 + julian1970;
+  return jd
 };
 
 var julianDays = function julianDays(jdays) {
